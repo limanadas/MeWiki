@@ -1,0 +1,117 @@
+body {
+  background-color: #fdfdfd;
+  color: #212324;
+  font-family: "Merriweather", serif;
+}
+
+.site-header {
+  background-color: #ebebeb;
+  border-bottom: 1px solid #a2a9b1;
+  padding: 20px 0 10px;
+  text-align: center;
+}
+
+.site-header h1 {
+  font-family: "Merriweather", serif;
+  margin: 0;
+  font-size: 2.2rem;
+  color: #090d10;
+}
+
+.subtitle {
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 1rem;
+  color: #555;
+  margin-top: 2px;
+  font-style: italic;
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Merriweather", serif;
+  color: #090d10;
+  margin-top: 30px;
+  padding-left: 20px;
+}
+
+h2 {
+  font-size: 2.2rem;
+}
+
+h3,
+h4,
+h5,
+h6 {
+  font-size: 1.8rem;
+  padding-left: 25px;
+}
+
+.social-links {
+  display: flex;
+  justify-content: left;
+  gap: 70px;
+  margin: 10px 0 30px;
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 0.95rem;
+  flex-wrap: wrap;
+  padding-left: 20px;
+}
+
+.social-links .icon {
+  width: 35px;
+  height: 35px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+.social-links .spotify-icon {
+  width: 25px;
+  height: 25px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+a {
+  text-decoration: none;
+  color: #333478;
+}
+
+ul {
+  font-family: "Source Sans 3", sans-serif;
+  padding-left: 70px;
+}
+
+p {
+  font-family: "Source Sans 3", sans-serif;
+  padding-left: 25px;
+  padding-right: 20px;
+  text-align: justify;
+  font-size: 1.1rem;
+}
+
+.site-footer {
+  font-size: 0.8rem;
+  padding: 20px;
+  background-color: #ebebeb;
+  color: #555;
+  border-top: 1px solid #a2a9b1;
+  text-align: center;
+}
+
+.imagem-texto {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.imagem-texto img {
+  width: 220px;
+  height: auto;
+  object-fit: cover;
+  padding-right: 20px;
+}
